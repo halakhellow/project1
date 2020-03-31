@@ -1,0 +1,101 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*Start Header*/
+header h1{
+    text-align: center;
+    color: #aa12d0;
+}
+/*End Header*/
+
+/*Start Navbar*/
+nav ul {
+    width: 80%;
+    margin: auto;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 9px;
+    
+}
+nav ul li a {
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #aa12d0;
+}
+/*End Navbar*/ 
+
+div{
+    width: 80%;
+    height: 555px;
+    margin: auto;
+    margin-bottom: 1%;
+    background: url('../images/lap.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+div h2 , div p , div form , div button {
+    position: absolute;
+    left: 62%;
+}
+div h2{
+    top: 31%;
+    font-weight: bold;
+}
+div p{
+    top: 38%;
+    font-size: 16px;
+    font-weight: bold;
+}
+div form{
+    top: 45%;
+}
+div form input, div form select {
+    display: block;
+    margin-bottom: 7%;
+    border: 2px solid;
+    padding: 3px;
+    width:auto;
+}
+
+div form input:last-of-type{
+    top: 68%;
+    background-color: #ad6abd;
+    opacity: 0.9;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 50%;
+}
+
+/*Start Footer*/
+footer p{
+    font-weight: bold;
+    width: 137px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 3%;
+    border-bottom: 2px solid #aa12d0;
+}
+/*End Footer*/
+
+@media (max-width:767px) {
+    div h2 , div p , div form , div button {
+        left:50%;
+    }
+    div h2{
+        top: 27%;
+    }
+
+}

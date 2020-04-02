@@ -36,7 +36,7 @@ nav ul li a:hover{
 }
 /*End Navbar*/ 
 
-div{
+div.banner{
     width: 80%;
     height: 555px;
     margin: auto;
@@ -45,18 +45,24 @@ div{
     background-size: cover;
     position: relative;
 }
-div h2 , div p , div form , div button {
-    position: absolute;
-    left: 62%;
-}
 div h2{
-    top: 31%;
     font-weight: bold;
 }
 div p{
-    top: 38%;
     font-size: 16px;
     font-weight: bold;
+}
+div .form-container{
+    padding: 20px;
+    background-color: rgba(11,11,11,0.3);
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 12%;
+    color: #fff;
+    left: 62%;
+}
 }
 div form{
     top: 45%;
